@@ -1,0 +1,26 @@
+{
+  "name": "ngx-rocket-talk",
+  "version": "0.0.1",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "start": "bs serve slides/talk.md",
+    "clean": "rm -rf .tmp dist",
+    "export": "bs export slides/talk.md",
+    "deploy": "npm run clean -s && npm run export -s && gh-pages -d dist"
+  },
+  "repository": "sinedied/ngx-rocket-talk",
+  "author": "Yohan Lasorsa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sinedied/ngx-rocket-talk/issues"
+  },
+  "homepage": "https://sinedied.github.io/ngx-rocket-talk",
+  "engines": {
+    "node": ">=7.6.0"
+  },
+  "devDependencies": {
+    "backslide": "^2.0.0",
+    "gh-pages": "^1.0.0"
+  }
+}
