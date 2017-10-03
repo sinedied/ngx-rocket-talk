@@ -5,9 +5,9 @@
   "private": true,
   "scripts": {
     "start": "bs serve slides/talk.md",
-    "clean": "rm -rf .tmp dist",
-    "export": "bs export slides/talk.md",
-    "deploy": "npm run clean -s && npm run export -s && gh-pages -d dist"
+    "clean": "rm -rf slides/.tmp slides/dist",
+    "export": "cd slides && bs export talk.md -l",
+    "deploy": "npm run clean -s && npm run export -s && gh-pages -d slides/dist"
   },
   "repository": "sinedied/ngx-rocket-talk",
   "author": "Yohan Lasorsa",
