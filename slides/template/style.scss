@@ -445,7 +445,7 @@ table {
 }
 
 .terminal {
-  top: 56%;
+  top: 53%;
 }
 
 .sketch {
@@ -482,6 +482,8 @@ table {
   color: $tertiary;
   font-size: .8em;
 }
+
+.bit-larger { font-size: 1.25em; }
 
 
 // Fix PDF print with chrome
