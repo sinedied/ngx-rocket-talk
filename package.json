@@ -6,7 +6,8 @@
   "scripts": {
     "start": "bs serve slides/talk.md",
     "clean": "rm -rf slides/.tmp slides/dist",
-    "export": "cd slides && bs export talk.md -l",
+    "export": "cd slides && bs export talk.md -r",
+    "demo:clean": "mv cli-demo/node_modules node_modules_tmp && rm -rf cli-demo && mkdir cli-demo && mv node_modules_tmp cli-demo/node_modules",
     "deploy": "npm run clean -s && npm run export -s && gh-pages -d slides/dist"
   },
   "repository": "sinedied/ngx-rocket-talk",
