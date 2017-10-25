@@ -2,3 +2,5 @@ node_modules/
 .DS_Store
 .tmp/
 dist/
+addon-demo/
+cli-demo/

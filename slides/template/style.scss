@@ -485,6 +485,12 @@ table {
 
 .bit-larger { font-size: 1.25em; }
 
+.emoji img {
+  height: 48px;
+  vertical-align: middle;
+  margin-top: -6px;
+}
+
 
 // Fix PDF print with chrome
 // ---------------------------------------------------------------------------
