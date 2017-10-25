@@ -36,7 +36,7 @@ class: impact, dark-blue, top
 ???
 Bonjour a tous, merci de vous etre levé ce matin!
 
-Je me présente bla... j'ai été lead dev sur plusieurs gros projets basés sur Angular ces dernières années au sein de Thales.
+Je me présente bla... j'ai été tech lead sur plusieurs gros projets basés sur Angular ces dernières années au sein de Thales.
 
 Mon retour d'XP sur le sujet? 
 
